@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "024677074d4653baa3c6abd6f9d02d84",
+    "content-hash": "7430faafa89b52fda48ca83cceab7576",
     "packages": [
         {
             "name": "akeneo/pim-community-dev",
-            "version": "dev-master",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/akeneo/pim-community-dev.git",
-                "reference": "ea2ca27d14f3fa8657197af685d525fc249a7f24"
+                "reference": "01c5c2f08eb9a0ba93ca8cb27ddc77a648f50140"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/akeneo/pim-community-dev/zipball/ea2ca27d14f3fa8657197af685d525fc249a7f24",
-                "reference": "ea2ca27d14f3fa8657197af685d525fc249a7f24",
+                "url": "https://api.github.com/repos/akeneo/pim-community-dev/zipball/01c5c2f08eb9a0ba93ca8cb27ddc77a648f50140",
+                "reference": "01c5c2f08eb9a0ba93ca8cb27ddc77a648f50140",
                 "shasum": ""
             },
             "require": {
@@ -132,19 +132,7 @@
                     }
                 },
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev",
-                    "dev-2.3": "2.3.x-dev",
-                    "dev-2.2": "2.2.x-dev",
-                    "dev-2.1": "2.1.x-dev",
-                    "dev-2.0": "2.0.x-dev",
-                    "dev-1.7": "1.7.x-dev",
-                    "dev-1.6": "1.6.x-dev",
-                    "dev-1.5": "1.5.x-dev",
-                    "dev-1.4": "1.4.x-dev",
-                    "dev-1.3": "1.3.x-dev",
-                    "dev-1.2": "1.2.x-dev",
-                    "dev-1.1": "1.1.x-dev",
-                    "dev-1.0": "1.0.x-dev"
+                    "dev-3.0": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -170,7 +158,7 @@
                 }
             ],
             "description": "Akeneo PIM, the future of catalog management is open!",
-            "time": "2019-01-23T09:18:24+00:00"
+            "time": "2019-02-06T16:29:57+00:00"
         },
         {
             "name": "ass/xmlsecurity",
@@ -1678,7 +1666,7 @@
                     "homepage": "https://github.com/friendsofsymfony/FOSJsRoutingBundle/contributors"
                 },
                 {
-                    "name": "William Durand",
+                    "name": "William DURAND",
                     "email": "william.durand1@gmail.com"
                 }
             ],
@@ -3244,9 +3232,9 @@
             "authors": [
                 {
                     "name": "Jim Schmid",
+                    "role": "Developer",
                     "email": "js@1up.io",
-                    "homepage": "http://1up.io",
-                    "role": "Developer"
+                    "homepage": "http://1up.io"
                 }
             ],
             "description": "Integrates Flysystem filesystem abstraction library to your Symfony2 project.",
@@ -4319,7 +4307,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -5029,19 +5017,19 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
+                    "role": "Lead Developer",
                     "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "homepage": "http://fabien.potencier.org"
                 },
                 {
                     "name": "Armin Ronacher",
-                    "email": "armin.ronacher@active-4.com",
-                    "role": "Project Founder"
+                    "role": "Project Founder",
+                    "email": "armin.ronacher@active-4.com"
                 },
                 {
                     "name": "Twig Team",
-                    "homepage": "https://twig.symfony.com/contributors",
-                    "role": "Contributors"
+                    "role": "Contributors",
+                    "homepage": "https://twig.symfony.com/contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
@@ -6188,7 +6176,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "akeneo/pim-community-dev": 20,
         "friendsofphp/php-cs-fixer": 0,
         "phpspec/phpspec": 0
     },
